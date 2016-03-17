@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 h1{
 	border: 1px solid #6175f0;
 	background-color: #6175f0;
@@ -8,8 +9,16 @@ h1{
 	padding-top: 20px;
 	padding-bottom: 10px;
 	}
+h2{
+	font-family: 'Times New Roman';
+	font-size: 24px;
+}
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #000000;
+}
 #titulo{
-	font-family: 'Kaushan Script';
+	font-family: 'Kaushan Script', cursive;
 	font-size: 36px;
 }
 #unicornio{
@@ -20,18 +29,39 @@ h1{
 	
 }
 #bloco1{
-	
 	font-family: arial;
 	font-size: 14px;
-	padding-left: 13px;
+	padding-left: 323px;
 }
 #bloco2{
 	clear: left;
 	float: left;
+	padding-left:12px;
 }
 #bloco3{
 	float: right;
-}
+	width: 405px;
+	margin-right: 25px;
+	border: 1px solid #ff56fb;
+	background-color:#f8cef7;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align:center;
+	}
 #bloco4{
 	clear:left;
+	color: #004a79;
+	background-color: #c4caf3;
+	padding-left: 12px;
+}
+img.imghoje{
+	max-height: 112px;
+	max-width: 112px;
+	width:auto;
+	height:auto;
+}
+p.estrofe{
+	padding-left: 34px;
 }
